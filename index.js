@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const dns = require("node:dns");
+const dns = require("dns");
 
 // add mongoose + MongDB and connect
 const mongo = require("mongodb");
